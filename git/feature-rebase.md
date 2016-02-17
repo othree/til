@@ -18,7 +18,7 @@ Rebase at local:
               \
                *----*   origin/feature
 
-When push to remote. Git will notice the you need to rebase first.
+When push to remote. Git will notice that you need to rebase remote first.
 But follow the suggesstion will lead to:
 
     *----*----*----*  master, origin/master
@@ -26,7 +26,7 @@ But follow the suggesstion will lead to:
            \
             *----*  feature, origin/feature
 
-To the ideal result, you need push feature beanch with force option:
+To the ideal result, you need push feature branch with force option:
 
     git push -f feature
 
