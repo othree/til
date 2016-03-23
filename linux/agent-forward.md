@@ -34,7 +34,7 @@ Then give tmp socket file access to another account:
     setfacl -m u:http:rw $SSH_AUTH_SOCK
     setfacl -m u:http:x $(dirname $SSH_AUTH_SOCK)
 
-`setfacl` is a command of file access control list. A new generation file access
+`setfacl` is a command of file Access Control Lists. A new generation file access
 control system. Current linux distributions already have acl enabled. 
 Then sudo command:
 
