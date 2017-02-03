@@ -32,8 +32,8 @@ by the `javascriptEndColon`.
 
 To fix this issue, we can use keepend:
 
-    syntax region javascriptImportDef start=/import/ end=/;\|\n/ contains=javascriptEndColons
-    syntax match  javascriptEndColon  /;/ keepend
+    syntax region javascriptImportDef start=/import/ end=/;\|\n/ contains=javascriptEndColons keepend
+    syntax match  javascriptEndColon  /;/
 
 And will lead to:
 
