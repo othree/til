@@ -9,7 +9,7 @@ Main purpose of Rison:
 3. Be **human-readable**
 4. Be **compact**
 
-Nanonid have mirror of prison code on [github][]. And now this format is used by Kibana.
+Nanonid have mirrored of Rison codes on [github][]. And now this format is used by Kibana.
 
 [metaweb]:https://en.wikipedia.org/wiki/Metaweb
 [it]:https://web.archive.org/web/20130910064110/http://mjtemplate.org/examples/rison.html
